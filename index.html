@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title> Aula 07 </title>
+    </head>
+    <body>
+        <h1> Cadastro </h1>
+        <form action="/recebe.html" method="post">
+            <!--Este é um campo de nome do usuário-->
+            <label for="nome">
+                Nome completo: 
+            </label> 
+            <br>
+            <input type="text" maxlength="50" id="nome" name="nome">
+            <br><br>
+            <!--Este é um campo de senha-->
+            <label for="senha">
+                Senha: 
+            </label>
+            <br>
+            <input type="password" id="senha" name="senha">
+            <br><br>
+            <!--Este é um campo de email-->
+            <label for="email">
+                Email: 
+            <input type="email" id="email" name="email">
+            </label>
+            <br><br>
+            <!--Este é um campo de data de nascimento-->
+            <label for="data">
+                Data de Nascimento: 
+            </label>
+            <br>
+            <input type="date" id="data" name="data">
+            <br><br>
+            <!--Este é um campo de idade-->
+            <label for="idade">
+                Idade: 
+            </label>
+            <br>
+            <input type="number" id="idade" name="idade">
+            <br><br>
+            <!--Esse é um campo de Feedback-->
+            <label for="area">
+                Feedback: 
+            </label>
+            <br>
+            <textarea rows="4" cols="40" id="area"> </textarea>
+            <!--Este é um campo de interesses-->
+            <label for="select">
+            <br><br>
+                Área de Interesses: 
+            </label>
+            <br>
+            <select id="select">
+                <option> Redes </option>
+                <option> Design </option>
+                <option> Programação </option>
+                <option> Suporte </option>
+            </select>
+            <br><br>
+            <input type="button" value="Enviar">
+        </form>
+    </body>
+</html>
